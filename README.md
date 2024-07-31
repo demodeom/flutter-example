@@ -123,7 +123,34 @@ Text("这是一段文本",style: TextStyle(
 ))
 ````
 
+## 图片
+
+网络图片
+
+````
+Image.network("http://css.yhdmtu.xyz/yinghua8/pic/4073c014692d95264d5d869b887ec38d.jpg",)
+````
+
+本地图片
+
+````
+Image.asset("assets/images/1.jpg",),
+````
+
+本地图片存储目录需要自己创建，本地图片路径 需要添加到 pubspec.yaml 文件
+
+````
+flutter:
+  assets:
+    - assets/images/1.jpg
+````
+
+如果有 100 张图片，添加 100 次， 岂不是烦琐， 可以直接将目录添加到 pubspec.yaml 文件
 
 
-
+````
+flutter:
+  assets:
+    - assets/images/
+````
 
