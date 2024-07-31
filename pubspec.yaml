@@ -79,6 +79,9 @@ flutter:
     - family: "中國龍毛隸書"
       fonts:
         - asset: "assets/fonts/中國龍毛隸書.ttf"
+    - family: "AliyunIconFont"
+      fonts:
+        - asset: "assets/fonts/AliyunIconfont.ttf"
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
