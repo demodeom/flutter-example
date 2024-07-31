@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_example/screen/example_image_network.dart';
 import 'package:flutter_example/screen/example_text.dart';
 import 'package:flutter_example/screen/hello_flutter.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ExampleText(),
+      home: ExampleImageNetwork(),
     );
   }
 }
