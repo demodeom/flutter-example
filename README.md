@@ -154,3 +154,17 @@ flutter:
     - assets/images/
 ````
 
+## 图标
+
+Flutter 自带了图标， 所有的图标封装在 Icons 类中
+
+完整的图标可以在以下地址预览 [https://api.flutter.dev/flutter/material/Icons-class.html](https://api.flutter.dev/flutter/material/Icons-class.html)
+
+````
+Icon(Icons.home)
+````
+
+| 属性  | 值数据类型 | 属性描述     |
+| ----- | ---------- | ------------ |
+| color | Color      | 设置图标颜色 |
+| size  | double     | 设置图标大小 |

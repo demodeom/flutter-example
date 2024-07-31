@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_example/screen/example_icon.dart';
 import 'package:flutter_example/screen/example_image_asset.dart';
 import 'package:flutter_example/screen/example_image_network.dart';
 import 'package:flutter_example/screen/example_text.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ExampleImageAsset(),
+      home: ExampleIcon(),
     );
   }
 }
